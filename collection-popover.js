@@ -16,7 +16,9 @@ Webflow.push(function () {
 
         var button_disabled = lightbox.attr('clb-button') === 'false';
 
-        lightbox.css('position', 'relative');
+        if(!button_disabled) {
+            lightbox.css('position', 'relative');
+        }
         
         list.each(function () {
         
