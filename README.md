@@ -20,7 +20,7 @@ clb="list"
 
 Wherever you want the clickable area to launch the popover to be, add a link to Current Item.
 
-**Step 1 -** Give the Collection List or Collection List Wrapper that will hold the popovers the following attribute:
+**Step 2 -** Give the Collection List or Collection List Wrapper that will hold the popovers the following attribute:
 
 ```
 clb="content"
@@ -28,10 +28,16 @@ clb="content"
 
 A link to the Current Item must be in the item somewhere, it can be hidden or empty.
 
-**Step 3 -** Give the element that the popovers should be appended to the following attribute:
+**Step 3A -** Give the element that the popovers should be appended to the following attribute:
 
 ```
 clb="lightbox"
+```
+
+**Step 3B -** *Optional* If you don't want a close button, add the following attribute to the lightbox element:
+
+```
+clb-button="false"
 ```
 
 **Step 4 -** Give the element that is wrapped around the lement in step 3 the following attribute:
