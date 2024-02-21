@@ -47,3 +47,15 @@ clb="wrap"
 ```
 
 *Whenver the item in "list" is clicked the corresponding item in "wrap" will be moved to "lightbox".*
+
+**Step 5 -** *Optional* Style the close button.
+
+As an example, adding the following code to the <head> custom code box will invert the button:
+
+```
+<style>
+.clb-button {
+    background: #292a2f;
+    color: #fff;
+}
+</style>
