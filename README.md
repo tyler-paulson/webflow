@@ -6,7 +6,7 @@
 
 Add the following code to the </body> custom code box:
 
-```
+```html
 <script src="https://cdn.jsdelivr.net/gh/tyler-paulson/webflow/collection-popover.js"></script>
 ```
 
@@ -52,7 +52,7 @@ clb="wrap"
 
 As an example, adding the following code to the <head> custom code box will invert the button:
 
-```
+```html
 <style>
 .clb-button {
     background: #292a2f;
