@@ -1,6 +1,6 @@
 # Webflow Plugins
 
-## Collection Popover
+## Collection Custom Lightbox
 
 ### Installation
 
@@ -12,7 +12,7 @@ Add the following code to the </body> custom code box:
 
 ### Implementation
 
-**Step 1 -** Give the Collection List or Collection List Wrapper that will be launching the popovers the following attribute:
+**Step 1 -** Give the Collection List or Collection List Wrapper that will be launching the lightboxes the following attribute:
 
 ```
 clb="list"
