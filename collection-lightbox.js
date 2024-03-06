@@ -39,6 +39,11 @@ Webflow.push(function () {
                     lightbox.append(button);
                 }
                 wrap.css('display', 'flex');
+
+                // Broadcast event to the document
+                const updatedEvent = new Event("CLBUpdated");
+                document.dispatchEvent(updatedEvent);
+                
                 return false;
 
             });
