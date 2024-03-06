@@ -7,7 +7,7 @@
 Add the following code to the </body> custom code box:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tyler-paulson/webflow/collection-popover.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tyler-paulson/webflow@1.0.0/collection-lightbox.js"></script>
 ```
 
 ### Implementation
